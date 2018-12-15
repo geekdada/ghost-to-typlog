@@ -1,6 +1,6 @@
 {
   "name": "ghost-to-typlog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert Ghost export file to Typlog import file",
   "bin": {
     "ghost-to-typlog": "./bin/ghost-to-typlog.js"
