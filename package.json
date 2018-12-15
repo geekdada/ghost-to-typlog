@@ -1,16 +1,21 @@
 {
   "name": "ghost-to-typlog",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "dependencies": {
+    "chalk": "^2.4.1",
+    "common-bin": "^2.8.0",
+    "fs-extra": "^7.0.1",
+    "moment": "^2.23.0",
+    "ora": "^3.0.0"
   },
   "devDependencies": {
-    "egg-bin": "^3.4.0",
-    "eslint": "^4.0.0",
-    "eslint-config-egg": "^4.2.0"
+    "egg-bin": "^4.9.0",
+    "eslint": "^5.10.0",
+    "eslint-config-egg": "^7.1.0"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": "^8.0.0"
   },
   "scripts": {
     "lint": "eslint .",
