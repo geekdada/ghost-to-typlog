@@ -1,7 +1,10 @@
 {
   "name": "ghost-to-typlog",
   "version": "0.0.1",
-  "description": "",
+  "description": "Convert Ghost export file to Typlog import file",
+  "bin": {
+    "ghost-to-typlog": "./bin/ghost-to-typlog.js"
+  },
   "dependencies": {
     "chalk": "^2.4.1",
     "common-bin": "^2.8.0",
@@ -19,22 +22,18 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
-    "ci": "npm run lint && egg-bin pkgfiles --check && npm run cov",
-    "pkgfiles": "egg-bin pkgfiles"
+    "ci": "npm run lint && npm run cov"
   },
   "ci": {
     "version": "8"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/geekdada/ghost-to-typlog"
   },
-  "files": [
-    "index.js"
-  ],
   "author": "me@dada.li",
   "license": "MIT"
 }
